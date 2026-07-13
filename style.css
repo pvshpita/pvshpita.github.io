@@ -1,0 +1,313 @@
+/*==========================
+    General
+==========================*/
+
+body{
+    font-family:'EB Garamond', serif;
+    background:#FFF9FB;
+    color:#5E4A54;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Cinzel', serif;
+    color:#8A5A72;
+}
+
+.carousel-item img{
+    height:500px;
+    object-fit:cover;
+}
+
+
+/*==========================
+  Technical Skills
+==========================*/
+
+#technical{
+    background:#FFF8FB;
+    padding:80px 0;
+}
+
+#technical h2{
+    font-size:2.5rem;
+    font-weight:700;
+    color:#8A5A72;
+}
+
+#technical p{
+    color:#7A6A72;
+}
+
+.skill-card{
+    background:#FDECF2;
+    border:none;
+    border-radius:22px;
+    box-shadow:0 8px 20px rgba(220,170,190,.25);
+    transition:.35s ease;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 15px 30px rgba(220,170,190,.4);
+}
+
+.skill-card .card-body{
+    padding:25px;
+}
+
+.skill-card h5{
+    font-weight:600;
+    font-size:18px;
+    color:#8A5A72;
+}
+
+.skill-card i{
+    margin-right:8px;
+    font-size:22px;
+    color:#D48CA8;
+}
+
+.skill-card span{
+    font-weight:600;
+    color:#7A6A72;
+}
+
+.progress{
+    height:10px;
+    border-radius:30px;
+    background:#F6DCE6;
+}
+
+.progress-bar{
+    border-radius:30px;
+    background:linear-gradient(90deg,#E7A7BC,#D989A3);
+}
+
+@media(max-width:768px){
+
+#technical h2{
+    font-size:2rem;
+}
+
+}
+
+
+/*==========================
+ Programming Languages
+==========================*/
+
+#programming{
+    background:linear-gradient(135deg,#FFF7FA,#FDECF2);
+    padding:80px 0;
+}
+
+.language-card{
+    background:#FFF3F7;
+    border:none;
+    border-radius:22px;
+    box-shadow:0 8px 20px rgba(220,170,190,.25);
+    transition:.35s ease;
+}
+
+.language-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 15px 30px rgba(220,170,190,.4);
+}
+
+.language-card i{
+    transition:.35s;
+    color:#D48CA8;
+}
+
+.language-card:hover i{
+    transform:scale(1.18) rotate(5deg);
+}
+
+.language-card h5{
+    font-weight:600;
+    color:#8A5A72;
+}
+
+.language-card p{
+    color:#7A6A72;
+    margin-bottom:0;
+}
+
+.progress{
+    height:8px;
+    border-radius:20px;
+    background:#F6DCE6;
+}
+
+.progress-bar{
+    border-radius:20px;
+    background:linear-gradient(90deg,#E7A7BC,#D989A3);
+}
+
+
+/*=========================
+ Tools & Technologies
+==========================*/
+
+#tools{
+    background:#FFF7FA;
+    padding:80px 0;
+}
+
+.tool-card{
+    background:#FDECF2;
+    border:none;
+    border-radius:22px;
+    box-shadow:0 8px 20px rgba(220,170,190,.25);
+    transition:.35s;
+}
+
+.tool-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 15px 30px rgba(220,170,190,.4);
+}
+
+.tool-card .card-body{
+    padding:35px 20px;
+}
+
+.tool-card i{
+    color:#D48CA8;
+    transition:.35s;
+}
+
+.tool-card:hover i{
+    transform:scale(1.2) rotate(8deg);
+}
+
+.tool-card h5{
+    margin-top:15px;
+    font-weight:600;
+    color:#8A5A72;
+}
+
+
+/*=========================
+ Soft Skills
+==========================*/
+
+#softskills{
+    background:#FFF8FB;
+    padding:80px 0;
+}
+
+.soft-card{
+    background:#FFF0F5;
+    border:none;
+    border-radius:22px;
+    box-shadow:0 8px 20px rgba(220,170,190,.25);
+    transition:.35s;
+}
+
+.soft-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 15px 30px rgba(220,170,190,.4);
+}
+
+.soft-card .card-body{
+    padding:35px 20px;
+}
+
+.soft-card i{
+    color:#D48CA8;
+    transition:.35s;
+}
+
+.soft-card:hover i{
+    transform:scale(1.2);
+}
+
+.soft-card h5{
+    margin-top:15px;
+    font-weight:600;
+    color:#8A5A72;
+}
+
+
+/*=========================
+        Projects
+==========================*/
+
+#projects{
+    background:#FFF7FA;
+    padding:80px 0;
+}
+
+.project-card{
+    background:#FFF4F8;
+    border:none;
+    border-radius:24px;
+    overflow:hidden;
+    transition:.35s;
+    box-shadow:0 8px 20px rgba(220,170,190,.25);
+}
+
+.project-card:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 18px 35px rgba(220,170,190,.4);
+}
+
+.project-card img{
+    height:220px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.project-card:hover img{
+    transform:scale(1.08);
+}
+
+.project-card .card-body{
+    padding:25px;
+}
+
+.project-card h4{
+    font-weight:700;
+    margin-bottom:15px;
+    color:#8A5A72;
+}
+
+.project-card p{
+    color:#6D5B63;
+    text-align:justify;
+}
+
+.project-card .badge{
+    margin:3px;
+    padding:8px 12px;
+    font-size:13px;
+}
+
+.project-card .btn{
+    background:#D989A3;
+    color:white;
+    border:none;
+    border-radius:30px;
+}
+
+.project-card .btn:hover{
+    background:#BE758F;
+}
+
+.project-card .card-footer{
+    padding:20px;
+    background:transparent;
+    border:none;
+}
+
+
+/*=========================
+    Icons
+==========================*/
+
+.fa,
+.fab,
+.fas,
+.far{
+    color:#D48CA8;
+}
